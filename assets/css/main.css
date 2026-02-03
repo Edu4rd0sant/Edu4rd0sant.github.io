@@ -3219,3 +3219,36 @@ input, select, textarea {
 			}
 
 	}
+	/* --- INÍCIO DO MODO DARK PERSONALIZADO --- */
+
+/* Fundo da área principal e cor do texto */
+body {
+    background-color: #1e2124; /* Cinza escuro estilo Discord/VS Code */
+    color: #c9d1d9; /* Texto cinza claro para não cansar a vista */
+}
+
+/* Títulos (h1, h2, etc) em branco */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+}
+
+/* Textos em negrito e links */
+strong, b, a {
+    color: #ffffff;
+}
+
+/* Cor do link quando passa o mouse (verde do seu badge) */
+a:hover {
+    color: #238636 !important;
+}
+
+/* Botões com borda branca para destacar no escuro */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button {
+    box-shadow: inset 0 0 0 2px #ffffff;
+    color: #ffffff !important;
+}
+
+/* --- FIM DO MODO DARK --- */
